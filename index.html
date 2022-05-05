@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stytle.css" type="text/css">
+    <title>Jogo da Velha</title>
+
+</head>
+<body>
+        
+     <h1>Jogo da Velha</h1>
+
+     <div class="tela">
+
+      <div class="left">
+
+        <h3>Regras do Jogo da Velha</h3>
+    <div class="lado">
+        <ul>
+         <li>Desenhe a base do jogo: três linhas por três colunas;</li>
+         <li>À vez, cada jogador coloca a sua marca onde pretender (um joga com “0”, outro jogador com “X”);</li>
+         <li>O objetivo do jogo é fazer uma sequência de três símbolos iguais, seja em linha vertical, horizontal ou diagonal, enquanto tenta impedir que seu adversário faça o mesmo;</li>
+         <li>Quando um dos participantes faz uma linha, horizontal, vertical e diagonal ganha o jogo;</li>
+         <li>Para Começa do início, e só REINICIAR COM BOTÃO.</li>
+        </ul>
+    </div>
+    </div>
+                <div class="right">
+                    
+                    <div>
+                        <div id="1" class="quadrado" onclick="escolherQuadrado(this.id)">-</div>
+                        <div id="2" class="quadrado" onclick="escolherQuadrado(this.id)">-</div>
+                        <div id="3" class="quadrado" onclick="escolherQuadrado(this.id)">-</div>
+                    </div>
+
+                    <div>
+                        <div id="4" class="quadrado" onclick="escolherQuadrado(this.id)">-</div>
+                        <div id="5" class="quadrado" onclick="escolherQuadrado(this.id)">-</div>
+                        <div id="6" class="quadrado" onclick="escolherQuadrado(this.id)">-</div>
+                    </div>
+
+                    <div>
+                        <div id="7" class="quadrado" onclick="escolherQuadrado(this.id)">-</div>
+                        <div id="8" class="quadrado" onclick="escolherQuadrado(this.id)">-</div>
+                        <div id="9" class="quadrado" onclick="escolherQuadrado(this.id)">-</div>
+                    </div>
+
+                    <div class="jogador">
+                        <label>Jogador:</label>
+                        <label id="jogador-selecionado"> </label>
+                    </div>
+
+                    <div class="vencedor">
+                        <label>Vencedor:</label>
+                        <label id="vencedor-selecionado"></label>
+                    </div>
+                
+
+                    <div>
+                        <button onclick="reiniciar()">Reiniciar</button>
+                    </div>
+
+                </div>         
+ </div> 
+    
+</body>
+<script src="script.js"></script>
+</html>

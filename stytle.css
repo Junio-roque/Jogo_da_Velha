@@ -1,0 +1,65 @@
+body{
+    text-align: center;
+    font-weight: bold;
+    color: rgb(255, 251, 251);
+    background-image: url(img/jogo2.jpg);
+    
+    
+}
+
+h3{
+    font-size: 40px;
+}
+
+.right{
+    width:500px;
+  /* altura da div */
+    height:400px;
+    float:left;
+  
+    
+}
+.left{
+  width:500px;
+  /* altura da div */
+  height:300px;
+  float:left;
+  
+}
+h1{
+    font-size: 50px;
+}
+
+.lado{
+    text-align: left;
+    font-size: 25px;
+}
+
+.quadrado{
+    text-align: center;
+    width: 50px;
+    background: rgb(85, 223, 236);
+    display: inline-block;
+    padding: 40px;
+    font-size: 60px;
+    margin: 2px;
+    cursor: pointer;
+    color: rgb(85, 223, 236);
+}
+
+.jogador, .vencedor{
+    font-size: 30px;
+    margin-top: 10px;
+  
+
+}
+
+button{
+    margin-top: 20px;
+    width: 130px;
+    height: 30px;
+    background: greenyellow;
+    cursor: pointer;
+    font-size: 20px;
+    border-radius: 15px;
+}
